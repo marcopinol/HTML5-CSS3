@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --fonte-texto: "Noto Sans Cherokee", sans-serif;
+    --fonte-titulo: "Merriweather", serif;
+    --cor1: #0BEA70;
+    --cor2: #2AC06D;
+    --cor3: #399663;
+    --cor4: #3B6B51;
+    --cor5: #2E4137;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+}
+
+header {
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    background-color: white;
+    color: var(--cor5);
+    font-family: var(--fonte-titulo);
+}
+
+header > p {
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: var(--cor4);
+    font-size: 1em;
+    padding: 10px 5px 10px 15px;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 3px 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: var(--cor5);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+div.container {
+    display: flex;
+}
+
+nav#nav1 {
+    flex: auto;
+}
+
+nav#nav2 {
+    padding-left: 3px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+main {
+    height: 70vh;
+    background-image: url('../images/2.1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+div#login{
+    background-color: rgba(255, 255, 255, 0.877);
+    max-width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: var(--fonte-texto);
+}
+
+div#form {
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+}
+
+div#botoes {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+div#senha {
+    margin-top: 15px;
+}
+
+label#remember {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+button#botaologin {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+input#email {
+    width: 220px;
+    height: 20px;
+}
+
+input#senha {
+    width: 220px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+b.textoplaceholder{
+    padding-top: 50px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
