@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    background-color: lightgrey;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section.video {
+    margin: 15px 0px;
+}
+
+div.video {
+    position: relative;
+    width: 89%;
+    padding-bottom: 50%;
+    margin: auto;
+}
+
+div.video > iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+section.conteudo h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 5px 0px 0px 10px;
+}
+
+section.conteudo p {
+    padding: 7px;
+    padding-left: 20px;
+    text-indent: 5px;
+    text-align: justify;
+}
