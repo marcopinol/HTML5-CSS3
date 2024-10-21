@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+header, header > nav {
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header > h1 {
+    flex-basis: 70px;
+}
+
+nav > a {
+    width: 90vw;
+}
