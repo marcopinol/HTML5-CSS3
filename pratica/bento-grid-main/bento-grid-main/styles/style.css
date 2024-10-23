@@ -1,0 +1,226 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Medium";
+    src: url("../assets/fonts/static/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "Medium-italic";
+    src: url("../assets/fonts/static/DMSans-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Regular";
+    src: url("../assets/fonts/static/DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Variable";
+    src: url("../assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
+}
+@font-face {
+    font-family: "Variable-italic";
+    src: url("../assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div#social-10x {
+    background-color: #7651DC;
+    color: white;
+    padding: 35px;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+
+div#social-10x > h1 {
+    font-family: "Medium";
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 0.9em;
+}
+
+div#social-10x > h1 > span#tenx {
+    color: #F7C48E;
+    font-weight: 500;
+}
+
+div#social-10x > h1 > span#faster {
+    font-style: oblique;
+    font-weight: 500;
+}
+
+div#social-10x > img {
+    padding-top: 15px;
+    width: 68%;
+}
+
+div#social-10x > p {
+    font-family: "Regular";
+    font-weight: 100;
+    font-size: 1.1em;
+    padding-top: 0px;
+}
+
+div#multiple-acc {
+    padding: 10px;
+    margin: 35px auto;
+    margin-top: 45px;
+}
+
+div#multiple-acc > img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+div#multiple-acc > h2 {
+    font-family: "Regular";
+    font-weight: 900;
+    font-size: 1.55em;
+    color: black;
+    text-align: left;
+}
+
+div#post-sched {
+    background-color: #FFCC69;
+    text-align: left;
+    padding: 10px 20px 0px 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+div#post-sched  > h2 {
+    font-family: "Regular";
+    font-size: 1.55em;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+div#post-sched > img {
+    margin: 10px 0px -4px 10px;
+    width: 65%;    
+}
+
+div#sched-social {
+    background-color: #DCD1FC;
+    font-family: "Regular";
+    padding: 10px 0px 10px 0px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+div#sched-social > h2 {
+    font-size: 1.45em;
+    margin: 15px 0px;
+}
+
+div#sched-social > img {
+    width: 89%;
+}
+
+div#sched-social > p {
+    font-size: 1.1em;
+    padding: 0px 25px;
+    margin: 15px 0px;
+}
+
+div#grow-follow {
+    background-color: #7651DC;
+    padding: 10px;
+    margin: auto;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+div#grow-follow > img {
+    margin-top: 15px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+div#grow-follow > h2 {
+    font-family: "Regular";
+    font-size: 1.7em;
+    font-weight: 400;
+    line-height: 0.9em;
+    color: white;
+    padding: 25px 50px 10px 50px;
+}
+
+div#audience {
+    font-family: "Regular";
+    text-align: left;
+    padding: 10px;
+    margin: 30px auto 20px auto;
+    border-radius: 10px;
+}
+
+div#audience > h2{
+    font-size: 3em;
+}
+
+div#audience > p {
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 0px 0px 25px 0px;
+}
+
+div#audience > img {
+    width: 60.5%;
+}
+
+div#quicker{
+    background-color: #FAEEE2;
+    font-family: "Regular";
+    text-align: left;
+    padding: 10px;
+    margin: 30px auto 20px auto;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+div#quicker > h2 {
+    font-size: 1.8em;
+    font-weight: 1000;
+    padding: 10px 20px 0px 18px;
+}
+
+div#quicker > h2 > span {
+    font-style: oblique;
+    color: #7651DC;
+}
+
+div#quicker > img {
+    margin: 15px 0px 15px 18px;
+    width: 55%;
+}
+
+div#ai {
+    background-color: #FFCC69;
+    font-family: "Regular";
+    text-align: left;
+    padding: 10px;
+    margin: 30px auto 40px auto;
+    border-radius: 10px;
+}
+
+div#ai > h2 {
+    font-size: 1.8em;
+    line-height: .9em;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+div#ai > img {
+    width: 69.5%;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.content {
+    text-align: center;
+    width: 90vw;
+}
