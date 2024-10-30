@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GERO SAUDE - REGISTRE-SE</title>
+    <link rel="stylesheet" href="styles/styles-signup.css">
 </head>
 
 <body>
@@ -13,41 +14,39 @@
         <p>Vida longa, com mais conforto e segurança!</p>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="">Conheça nossos planos</a>
-        <a href="Sign-in.html">Login/Registre-se</a>
-        <a href="">Nossos Valores</a>
-    </nav>
+    <div class="container">
+        <nav id="nav1">
+            <a href="index.html">Home</a>
+            <a href="">Conheça nossos planos</a>
+            <a href="">Nossos Valores</a>
+        </nav>
+        <nav id="nav2">
+            <a href="Sign-in.html">Login/Registre-se</a>
+        </nav>
+    </div>
 
     <main>
         <div id="registro">
-            <div id="id01" class="modal">
                 <form class="modal-content" action="#">
-                    <div class="container">
                         <h1>Registre-se</h1>
-                        <p>Por favor preencha este formulário para criar uma conta.</p>
-                        <hr>
-                        <label for="email"><b>Email</b></label>
-                        <input type="text" placeholder="Insira seu email" name="email" required><br>
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Crie uma senha" name="psw" required><br>
-                        <label for="psw-repeat"><b>Repeat Password</b></label>
-                        <input type="password" placeholder="Repita a senha" name="psw-repeat" required><br>
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember">
-                            Remember me
-                        </label>
+                        <p>Por favor preencha este formulário para criar uma conta.</p><br>
+                        <label for="iemail"><b>Email</b></label><br>
+                            <input type="text" placeholder="Insira seu email" name="email" id="iemail" required><br>
+                        <label for="ipsw"><b>Password</b></label><br>
+                            <input type="password" placeholder="Crie uma senha" name="psw" id="ipsw" required><br>
+                        <label for="ipsw-repeat"><b>Repeat Password</b></label><br>
+                            <input type="password" placeholder="Repita a senha" name="psw-repeat" id="ipsw-repeat" required><br>
                         <p>Ao criar uma conta você concorda com nossos <a href="#" style="color:dodgerblue">Termos &
                                 Privacidade</a>.</p>
                         <div class="clearfix">
                             <button type="submit" class="signup">Criar conta</button>
                         </div>
-                    </div>
                 </form>
-            </div>
         </div>
     </main>
+    <footer>
+        Product licensed by ConectaMais©
+    </footer>
 </body>
 
 </html>
