@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERO SAUDE - BOAS VINDAS</title>
+    <link rel="stylesheet" href="styles/logged.css">
+</head>
+<body>
+    <header>
+        <h1><span>ConectaMais</span> GERO SAÚDE</h1>
+        <p>Vida longa, com mais conforto e segurança!</p>
+    </header>
+
+    <div class="container">
+        <nav id="nav1">
+            <a href="index.html">Home</a>
+            <a href="#">Conheça nossos planos</a>   
+            <a href="#">Nossos Valores</a>
+        </nav>
+        <nav id="nav2">
+            <a href="index.html">Logout</a>
+        </nav>
+    </div>
+    <hr>
+    <main>
+        <div id="form-idoso">
+            <form>
+                <h1>Formulário de envio de notificação</h1>
+                <fieldset>
+                    <legend>Preencha os campos abaixo com os dados do idoso</legend>
+                    <div class="campo">
+                        <label for="iname">Nome e Sobrenome</label>
+                            <input type="text" name="name" id="iname" required>
+                    </div>
+                    <div class="campo">
+                        <label for="itel">Telefone do idoso</label>
+                            <input type="tel" name="tel" id="itel" required>
+                    </div>
+                    <div class="campo">
+                        <label for="iemail">E-mail do idoso</label>
+                            <input type="email" name="email" id="iemail" required>
+                    </div>
+                    <button type="submit" id="enviar" onclick="dados()" >Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
